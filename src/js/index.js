@@ -19,11 +19,7 @@ $(function () {
                 `;
                 Dataloading.append(template);
             })
-
         }
     });
-    $('#login').on('click',function(){
-        
-    })
 
 })
