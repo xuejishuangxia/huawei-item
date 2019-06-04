@@ -1,0 +1,16 @@
+html, body, dl, dt, dd, div, form, input, p, th, td, tr, button, nav, h1, h2, h3, h4, h5, h6, header, section, main, img, a, li, ul, i, b {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-style: normal;
+}

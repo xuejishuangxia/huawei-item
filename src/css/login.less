@@ -1,0 +1,251 @@
+@charset "utf-8";
+
+#login-box {
+    width : 498px;
+    height: 500px;
+    margin: 0 auto;
+
+    &>.box-cut {
+        width           : 100%;
+        height          : 29px;
+        background-color: #a51b1b;
+        position        : relative;
+
+        &>i {
+            display   : inline-block;
+            width     : 12px;
+            height    : 12px;
+            background: url(../img/login-icon1.png) no-repeat -38px -45px;
+            position  : absolute;
+            right     : 7px;
+            top       : 9px;
+        }
+    }
+
+    &>.box-content {
+        width     : 100%;
+        height    : 600px;
+        overflow  : hidden;
+        border    : 1px solid #ccc;
+        box-sizing: border-box;
+
+        &>.l-title {
+            margin    : 0 auto;
+            width     : 390px;
+            margin-top: 20px;
+
+            &>span {
+                font-size  : 20px;
+                color      : #333;
+                font-weight: 500;
+                cursor     : pointer;
+                margin     : 0 35px;
+            }
+
+            &>.s-1 {
+                color: #b40707;
+            }
+        }
+
+        &>.l-input {
+            margin    : 0 auto;
+            width     : 390px;
+            margin-top: 50px;
+
+            &>.l-username,
+            &>.l-password {
+                width        : 100%;
+                height       : 46px;
+                outline      : none;
+                border       : 0;
+                border-bottom: 1px solid #ccc;
+            }
+        }
+
+        &>.l-tips {
+            margin  : 0 auto;
+            width   : 390px;
+            position: relative;
+            padding : 16px 0;
+
+            &>i {
+                display   : inline-block;
+                width     : 13px;
+                height    : 15px;
+                background: url(../img/Login-phone.png) no-repeat;
+                position  : absolute;
+                top       : 7px;
+            }
+
+            &>span {
+                color    : #007dff;
+                cursor   : pointer;
+                font-size: 12px;
+                position : absolute;
+                left     : 15px;
+                top      : 7px;
+            }
+        }
+
+        &>.login-button {
+            margin          : 0 auto;
+            width           : 390px;
+            background-color: #c70000;
+            color           : #fff;
+            line-height     : 44px;
+            height          : 44px;
+            font-weight     : bold;
+            font-size       : 14px;
+            cursor          : pointer;
+            border-radius   : 26px;
+            text-align      : center;
+        }
+
+        &>.l-remember {
+            margin     : 0 auto;
+            width      : 390px;
+            position   : relative;
+            padding-top: 15px;
+
+            &>span {
+                font-size: 10px;
+                color    : #666;
+            }
+
+            &>span:nth-child(3) {
+                color   : #0064cc;
+                position: absolute;
+                right   : 0;
+                top     : 20px;
+                cursor  : pointer;
+
+                &:hover {
+                    color: #0064cc;
+                }
+            }
+
+        }
+
+        &>.l-note {
+            margin    : 0 auto;
+            width     : 390px;
+            margin-top: 20px;
+
+            &>span {
+                font-size  : 12px;
+                color      : #007dff;
+                font-weight: 500;
+                cursor     : pointer;
+                margin     : 0 5px;
+
+                &:hover {
+                    color: #0064cc;
+                }
+            }
+
+            &>span:nth-child(1) {
+                margin-left: 130px;
+            }
+
+        }
+
+        &>.l-way {
+            margin     : 0 auto;
+            width      : 390px;
+            padding-top: 50px;
+
+            &>.d {
+                width : 300px;
+                margin: 0 auto;
+
+
+                &>.i-1 {
+                    display         : inline-block;
+                    height          : 1px;
+                    width           : 94px;
+                    background-size : cover;
+                    background-color: #fff;
+                    background      : url(../img/login-leftLine.png) no-repeat;
+                }
+
+                &>span {
+                    color         : #ccc;
+                    background    : #fff;
+                    font-size     : 12px;
+                    padding       : 0 10px;
+                    vertical-align: middle;
+                    line-height   : 1.5;
+                }
+
+                &>.i-2 {
+                    display         : inline-block;
+                    height          : 1px;
+                    width           : 94px;
+                    background-size : cover;
+                    background-color: #fff;
+                    background      : url(../img/login-rightLine.png) no-repeat;
+                }
+            }
+
+
+        }
+
+        &>.l-three {
+            margin     : 0 auto;
+            width      : 390px;
+            padding-top: 15px;
+
+            &>span {
+                margin-right: 15px;
+            }
+
+            &>.qq {
+                display    : inline-block;
+                width      : 42px;
+                height     : 42px;
+                background : url(../img/login-000.png) no-repeat -72px -10px;
+                margin-left: 100px;
+                &:hover{
+                    background-position:-72px -56px;
+                }
+            }
+
+            &>.pay {
+                display   : inline-block;
+                width     : 42px;
+                height    : 42px;
+                background: url(../img/login-000.png) no-repeat -131px -10px;
+                &:hover{
+                    background-position:-131px -56px;
+                }
+            }
+
+            &>.wechat {
+                display   : inline-block;
+                width     : 42px;
+                height    : 42px;
+                background: url(../img/login-000.png) no-repeat -13px -10px;
+                &:hover{
+                    background-position:-13px  -56px;
+                }
+            }
+        }
+
+        &>p {
+            margin     : 0 auto;
+            width      : 315px;
+            color      : #717171;
+            font-size  : 12px;
+            padding-top: 20px;
+
+            &>a {
+                text-decoration: underline;
+                color          : #267eff;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header id="title">
+        <div class="sign">
+            <div class="sign-logo">
+                <img src="../img/head-top.png" alt="">
+            </div>
+            <div class="sign-name">
+                <i class="i-1">|</i>
+                <i class="i-2">华为商城</i>
+            </div>
+        </div>
+    </header>
+    <!-- 注册表单部分 -->
+    <main id="page">
+        <div class="page-content">
+            <!-- 两个选项 -->
+            <div class="option">
+                <a href="#" class="a-1">
+                    <i></i>
+                    <span>手机号</span>
+                </a>
+                <a href="#" class="a-2">
+                    <i></i>
+                    <span>电子邮箱</span>
+                </a>
+                <span class="s-3">
+                    <span>已有华为账号</span>
+                    <a href="#">
+                        <span>登录</span>
+                    </a>
+                    <i>></i>
+                </span>
+            </div>
+            <!-- 手机号注册-->
+            <div class="register-phonenum">
+                <div class="reg-detail">
+                    <div class="nation">
+                        <div class="n-left">
+                            <span>国&nbsp家</span>
+                            <i>/</i>
+                            <span>地&nbsp区</span>
+                        </div>
+                        <div class="n-right">
+                            <span class="choose-nation">中国</span>
+                            <span></span>
+                            <i></i>
+                        </div>
+                    </div>
+                    <div class="phonenumber">
+                        <div class="n-left">
+                            <span>+86(中国)</span>
+                        </div>
+                        <div class="p-right">
+                            <input type="phone" placeholder="请输入手机号" class="input-text usernum">
+                            <span class="result1"></span>
+                        </div>
+                    </div>
+                    <div class="SMS">
+                        <div class="n-left">
+                            <span>短&nbsp信&nbsp验&nbsp证&nbsp码</span>
+                        </div>
+                        <div class="p-right">
+                            <input type="text" placeholder="请输入短信验证码" class="input-text usersms">
+                            <span class="result2"></span>
+                        </div>
+                    </div>
+                    <div class="password">
+                        <div class="n-left">
+                            <span>密&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp码</span>
+                        </div>
+                        <div class="p-right">
+                            <input type="password" placeholder="请输入密码" class="input-text userpass">
+                            <span class="result3"></span>
+                        </div>
+                    </div>
+                    <div class="confirm-password">
+                        <div class="n-left">
+                            <span>确&nbsp&nbsp认&nbsp&nbsp密&nbsp&nbsp码</span>
+                        </div>
+                        <div class="p-right">
+                            <input type="password" placeholder="请再次输入密码" class="input-text uesrpass2">
+                        </div>
+                    </div>
+                    <div class="birthday">
+                        <div class="n-left">
+                            <span>出&nbsp&nbsp生&nbsp&nbsp日&nbsp&nbsp期</span>
+                        </div>
+                        <div class="p-right">
+                            <dd>
+                                <select id="year">
+                                    <option value="00">1990</option>
+                                    <option value="01">1991</option>
+                                    <option value="02">1992</option>
+                                    <option value="03">1993</option>
+                                    <option value="04">1994</option>
+                                    <option value="05">1995</option>
+                                    <option value="06">1996</option>
+                                </select>
+                                年
+                                <select id="month">
+                                    <option value="10">01</option>
+                                    <option value="11">02</option>
+                                    <option value="12">03</option>
+                                    <option value="13">04</option>
+                                    <option value="14">05</option>
+                                    <option value="15">06</option>
+                                    <option value="16">07</option>/
+                                </select>
+                                月
+                                <select id="day">
+                                    <option value="20">01</option>
+                                    <option value="21">02</option>
+                                    <option value="22">03</option>
+                                    <option value="23">04</option>
+                                    <option value="24">05</option>
+                                    <option value="25">06</option>
+                                    <option value="26">07</option>
+                                </select>
+                                日
+                            </dd>
+                        </div>
+                    </div>
+                    <div class="register-button">
+                        <div class="button">
+                            注册
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="empty-box"></div>
+            <!-- 邮箱注册 -->
+            <div class="register-email">
+
+            </div>
+        </div>
+        <footer class="foot">
+            <div class="foot-2">
+                <ul class="f1">
+                    <li>
+                        <a href="#">华为帐号用户协议</a>
+                    </li>
+                    <li>
+                        <a href="#">关于华为帐号与隐私的声明</a>
+                    </li>
+                    <li>
+                        <a href="#">常见问题</a>
+                    </li>
+                </ul>
+                <p class="f2">
+                    Copyright&nbsp&nbsp©&nbsp&nbsp2011-2019&nbsp&nbsp华为软件技术有限公司&nbsp&nbsp版权所有&nbsp&nbsp保留一切权利&nbsp&nbsp苏B2-20070200号&nbsp&nbsp|&nbsp&nbsp苏ICP备09062682号-9
+                </p>
+            </div>
+        </footer>
+    </main>
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../js/register.js"></script>
+</body>
+
+</html>

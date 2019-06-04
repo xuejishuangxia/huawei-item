@@ -1,0 +1,107 @@
+#wrapper {
+    width: 100%;
+    height:72px;
+    padding: 18px 0 15px 0;
+}
+
+#wrapper .nav2 {
+    width: 1200px;
+    height: 41px;
+    margin: 0 auto;
+}
+
+/* 左边的导航左浮动 */
+
+#wrapper .nav2 .left {
+    float: left;
+}
+
+#wrapper .nav2 .left div {
+    float: left;
+}
+
+#wrapper .nav2 .left .logo {
+    margin-right: 35px;
+}
+
+#wrapper .nav2 .left .naver li {
+    float: left;
+    margin-right: 24px;
+    margin-top: 7px;
+}
+
+#wrapper .nav2 .left .naver li img {
+    height: 24px;
+    display: block;
+}
+
+#wrapper .nav2 .left .naver li a {
+    font-size: 16px;
+    color: #333;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+/* 左边导航字内容的悬浮效果 */
+
+#wrapper .nav2 .left .naver li:hover a {
+    color: #ca141d;
+}
+
+/* 左边导航中两张图的悬浮效果 */
+
+/* #wrapper .nav2 .left .naver .pic1:hover{
+
+} */
+
+#wrapper .nav2 .left .logo img {
+    width: 205px;
+    height: 36px;
+}
+
+/* 右边的导航右浮动 */
+
+#wrapper .nav2 .right {
+    float: right;
+}
+
+#wrapper .nav2 .right .search {
+    position: relative;
+}
+
+#wrapper .nav2 .right #secrch-kw {
+    width: 320px;
+    height: 30px;
+    background: #eee;
+    float: left;
+    border-radius: 20px;
+    margin-top: 5px;
+    border: 0;
+    outline: none;
+}
+
+#wrapper .nav2 .right .iconfont {
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    right: 13px;
+    top: 8px;
+}
+
+.search .key-w1 {
+    position: absolute;
+    right: 100px;
+    top: 8px;
+    font-size: 12px;
+    color: #CF0A2C;
+    line-height: 25px;
+}
+
+.search .key-w2 {
+    position: absolute;
+    right: 50px;
+    top: 8px;
+    font-size: 12px;
+    color: #CF0A2C;
+    line-height: 25px;
+}

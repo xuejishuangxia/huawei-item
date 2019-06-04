@@ -1,0 +1,318 @@
+@charset "utf-8";
+#c-title {
+  width: 100%;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.2);
+}
+#c-title > .c-wrap {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+#c-title > .c-wrap > div {
+  float: left;
+}
+#c-title > .c-wrap > .c-logo {
+  overflow: hidden;
+  margin-right: 60px;
+  margin-top: 20px;
+  max-width: 133px;
+  float: left;
+}
+#c-title > .c-wrap > .c-logo > a > img {
+  display: inline-block;
+  width: 100%;
+}
+#c-title > .c-wrap > .c-contant {
+  overflow: hidden;
+  float: left;
+  margin-right: 60px;
+  margin-top: 20px;
+}
+#c-title > .c-wrap > .c-contant > ul {
+  float: left;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(1) {
+  margin-right: 30px;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(1) > li {
+  float: left;
+  width: 200px;
+  height: 50px;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(1) > .li-1 {
+  position: relative;
+  margin-right: 30px;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(1) > .li-1 > span {
+  display: inline-block;
+  width: 17px;
+  height: 33px;
+  position: relative;
+  overflow: hidden;
+  margin-right: 20px;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(1) > .li-1 > span > img {
+  position: absolute;
+  left: -18px;
+  top: -12px;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(1) > .li-1 > a {
+  font-size: 18px;
+  color: #282828;
+  position: absolute;
+  top: 5px;
+  width: 217px;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(1) > .li-2 {
+  position: relative;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(1) > .li-2 > span {
+  display: inline-block;
+  width: 22px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+  margin-right: 20px;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(1) > .li-2 > span > img {
+  position: absolute;
+  left: -15px;
+  top: -16px;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(1) > .li-2 > a {
+  font-size: 18px;
+  color: #282828;
+  position: absolute;
+  top: 5px;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(2) {
+  border-left: 2px solid #ccc;
+  padding-left: 20px;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(2) > li {
+  float: left;
+  width: 200px;
+  height: 50px;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(2) > .li-3 {
+  margin-right: 30px;
+  position: relative;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(2) > .li-3 > a {
+  position: absolute;
+  top: 5px;
+  font-size: 18px;
+  color: #282828;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(2) > .li-3 > span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 80px;
+  top: 5px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(2) > .li-3 > span > img {
+  position: absolute;
+  left: -5px;
+  top: -12px;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(2) > .li-4 {
+  margin-right: 30px;
+  position: relative;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(2) > .li-4 > a {
+  position: absolute;
+  top: 5px;
+  font-size: 18px;
+  color: #282828;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(2) > .li-4 > span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 60px;
+  top: 5px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+#c-title > .c-wrap > .c-contant > ul:nth-child(2) > .li-4 > span > img {
+  position: absolute;
+  left: -5px;
+  top: -12px;
+}
+#c-title > .c-wrap > .c-search {
+  position: absolute;
+  right: 124px;
+  top: 25px;
+}
+#c-title > .c-wrap > .c-search > span {
+  font-size: 20px;
+  color: #282828;
+}
+#c-nav {
+  width: 100%;
+  border-bottom: 1px solid #d4d4d4;
+}
+#c-nav > .c-wrap {
+  width: 1200px;
+  height: 42px;
+  margin: 0 auto;
+}
+#c-nav > .c-wrap > ul > li {
+  float: left;
+  height: 42px;
+  line-height: 42px;
+  margin-left: 10px;
+}
+#c-nav > .c-wrap > ul > li > a {
+  margin-right: 15px;
+  color: #222222;
+  display: inline-block;
+  font-size: 14.000000000000002px;
+  height: 40px;
+  box-sizing: border-box;
+}
+#c-nav > .c-wrap > ul > li > a:hover {
+  border-bottom: 5px solid #f66f6a;
+}
+#c-nav > .c-wrap > ul > li > .a-1 {
+  border-bottom: 5px solid #f66f6a;
+}
+#container {
+  width: 100%;
+  padding: 0 11px;
+}
+#container > .nav-1 {
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#container > .nav-1 > ul {
+  margin-top: 20px;
+}
+#container > .nav-1 > ul > li {
+  float: left;
+  margin-right: 5px;
+}
+#container > .nav-1 > ul > li > a {
+  color: #000;
+  font-size: 14.000000000000002px;
+}
+#container > .nav-1 > ul > li > a > i {
+  margin-right: 5px;
+}
+#container > .main-title {
+  width: 1200px;
+  margin: 0 auto;
+}
+#container > .main-title > h1 {
+  font-size: 48px;
+  height: 105px;
+}
+#container > .main-content {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+#container > .main-content > h2 {
+  line-height: 60px;
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+#container > .main-content > .p-1,
+#container > .main-content > .p-2 {
+  width: 504px;
+}
+#container > .main-content > p {
+  font-size: 18px;
+  line-height: 30px;
+  text-indent: 2em;
+  margin-bottom: 10px;
+  width: 1106px;
+}
+#container > .main-content > img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#container > .c-report {
+  width: 100%;
+  margin-top: 50px;
+}
+#container > .c-report > .wrap-report {
+  width: 1200px;
+  height: 225px;
+  margin: 0 auto;
+  box-shadow: 1px 0 20px #cccccc;
+  border-radius: 5px;
+  position: relative;
+}
+#container > .c-report > .wrap-report > .col-1,
+#container > .c-report > .wrap-report > .col-2,
+#container > .c-report > .wrap-report > .col-3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#container > .c-report > .wrap-report > .col-1 > .col-content,
+#container > .c-report > .wrap-report > .col-2 > .col-content,
+#container > .c-report > .wrap-report > .col-3 > .col-content {
+  padding: 0px 40px 30px 90px;
+  width: 276px;
+  height: 160px;
+  position: relative;
+}
+#container > .c-report > .wrap-report > .col-1 > .col-content > .s-1,
+#container > .c-report > .wrap-report > .col-2 > .col-content > .s-1,
+#container > .c-report > .wrap-report > .col-3 > .col-content > .s-1 {
+  font-size: 18px;
+  position: absolute;
+  left: 100px;
+  top: 30px;
+}
+#container > .c-report > .wrap-report > .col-1 > .col-content > .s-2,
+#container > .c-report > .wrap-report > .col-2 > .col-content > .s-2,
+#container > .c-report > .wrap-report > .col-3 > .col-content > .s-2 {
+  font-size: 60px;
+  color: #15b0e8;
+  position: absolute;
+  left: 100px;
+  top: 70px;
+}
+#container > .c-report > .wrap-report > .col-1 > .d-2,
+#container > .c-report > .wrap-report > .col-2 > .d-2,
+#container > .c-report > .wrap-report > .col-3 > .d-2 {
+  border-left: 1px solid #ccc;
+}
+#container > .c-report > .wrap-report > .col-1 > .d-3,
+#container > .c-report > .wrap-report > .col-2 > .d-3,
+#container > .c-report > .wrap-report > .col-3 > .d-3 {
+  border-left: 1px solid #ccc;
+}
+#container > .c-report > .wrap-report > .col-2 {
+  position: absolute;
+  top: 0;
+  left: 400px;
+}
+#container > .c-report > .wrap-report > .col-3 {
+  position: absolute;
+  top: 0;
+  left: 800px;
+}
+#container > .main-content2 {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+#container > .main-content2 > h2 {
+  line-height: 60px;
+  font-size: 38px;
+  margin-bottom: 30px;
+  margin: 40px 0 0 30px;
+}

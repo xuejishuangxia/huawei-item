@@ -1,0 +1,270 @@
+#shortcut {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background-color: #f9f9f9;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC";
+
+}
+
+#shortcut a {
+    text-decoration: none;
+}
+
+.layout {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.layout a {
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#shortcut .layout a:hover {
+    color: #ca151d;
+}
+
+/* 左边的导航样式 */
+
+.layout .s-sub {
+    float: left;
+    position: relative;
+}
+
+.layout .s-sub li {
+    float: left;
+}
+
+.layout .s-sub li a {
+    color: #a4a4a4;
+    padding: 0 8px;
+    border-right: 1px solid #a4a4a4;
+}
+
+.layout .s-sub li:nth-last-child(1) a {
+    border: 0;
+    padding-right: 0px
+}
+
+.layout .s-sub li:nth-last-child(1) #top1 {
+    position: absolute;
+    right: -16px;
+    top: 1px;
+    color: #a4a4a4;
+}
+
+.layout .s-sub li:nth-last-child(1) #top2 {
+    position: absolute;
+    right: -16px;
+    top: 1px;
+    color: #a4a4a4;
+    display: none;
+}
+
+.layout .s-sub li:nth-last-child(1):hover #top1 {
+    display: none;
+}
+
+.layout .s-sub li:nth-last-child(1):hover #top2 {
+    display: block;
+    background-color: #fff;
+    color: #ca151d;
+}
+
+/* 右边的导航样式 */
+
+.layout .s-main {
+    float: right;
+    position: relative;
+}
+
+.layout .s-main li {
+    float: left;
+}
+
+.layout .s-main li a {
+    color: #a4a4a4;
+    padding: 0 8px;
+    border-right: 1px solid #a4a4a4;
+}
+
+/* 客户服务后面的箭头图标的位置 */
+
+.layout .s-main .sevice {
+    position: relative;
+    margin-right:5px;
+}
+
+.layout .s-main .sevice #top1 {
+    position: absolute;
+    right: -5px;
+    top: 1px;
+    color: #a4a4a4;
+}
+
+.layout .s-main .sevice #top2 {
+    position: absolute;
+    right: -5px;
+    top: 1px;
+    color: #a4a4a4;
+    display: none;
+}
+
+.layout .s-main .sevice:hover a {
+    color: #ca151d;
+}
+
+.layout .s-main .sevice:hover #top1 {
+    display: none;
+}
+
+.layout .s-main .sevice:hover #top2 {
+    display: block;
+    /* background-color: #fff; */
+    color: #ca151d;
+}
+
+/* 网站导航后面的箭头图标位置 */
+
+.layout .s-main .web-nav {
+    position: relative;
+    margin-right:5px;
+}
+
+.layout .s-main .web-nav #top1 {
+    position: absolute;
+    right: -5px;
+    top: 1px;
+    color: #a4a4a4;
+}
+
+.layout .s-main .web-nav #top2 {
+    position: absolute;
+    right: -5px;
+    top: 1px;
+    color: #a4a4a4;
+    display: none;
+}
+
+.layout .s-main .web-nav:hover a {
+    color: #ca151d;
+}
+
+.layout .s-main .web-nav:hover #top1 {
+    display: none;
+}
+
+.layout .s-main .web-nav:hover #top2 {
+    display: block;
+    /* background-color: #fff; */
+    color: #ca151d;
+}
+
+/* 手机版后面的箭头图标位置 */
+
+.layout .s-main .phone {
+    position: relative;
+    margin-right:5px;
+}
+
+.layout .s-main .phone #top1 {
+    position: absolute;
+    right: -5px;
+    top: 1px;
+    color: #a4a4a4;
+}
+
+.layout .s-main .phone #top2 {
+    position: absolute;
+    right: -5px;
+    top: 1px;
+    color: #a4a4a4;
+    display: none;
+}
+
+.layout .s-main .phone:hover a {
+    color: #ca151d;
+}
+
+.layout .s-main .phone:hover #top1 {
+    display: none;
+}
+
+.layout .s-main .phone:hover #top2 {
+    display: block;
+    /* background-color: #fff; */
+    color: #ca151d;
+}
+
+/* 购物车的样式 */
+
+.layout .s-main .car .iconfont {
+    font-size: 14px;
+    /* border-left: 1px solid #a4a4a4;
+    padding-left: 5px; */
+}
+
+.layout .s-main .car a {
+    padding-left: 0;
+    border: 0;
+}
+
+.layout .s-main .car:hover a {
+    color: #ca151d;
+}
+
+.layout .s-main .car:hover span:nth-child(1) {
+    color: #ca151d;
+}
+
+/* 边框设置 */
+
+.layout .s-main .phone a, .layout .s-main .web-nav a, .layout .s-main .car .iconfont {
+    border-left: 1px solid #a4a4a4;
+    padding-left: 5px;
+}
+
+/* 第一个二级导航 */
+
+#shortcut .s-sub #sub-nav1 {
+    display: none;
+    position: absolute;
+    top: 36px;
+    right: -15px;
+    /* background: #fff;
+    box-shadow: 0 2px 36px 0 rgba(0, 0, 0, 0.07);
+    border-radius: 8px 0 8px 8px; */
+}
+
+#shortcut .s-sub #sub-nav1 .dropdown {
+    width: 119px;
+    text-align: center;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 0 2px 36px 0 rgba(0, 0, 0, 0.07);
+    border-radius: 8px 0 8px 8px;
+}
+#shortcut .s-sub #sub-nav1 .dropdown dt{
+    margin:10px 0;
+}
+/* #shortcut .s-sub #sub-nav1 .dropdown dt:nth-last-child(1){
+    margin-bottom:30px;
+} */
+#shortcut .s-sub #sub-nav1 .dropdown a {
+    color: #777;
+}
+
+/* 第一个二级导航悬浮出现 */
+
+#shortcut .s-sub li:nth-last-child(1):hover #sub-nav1 {
+    display: block;
+}
+
+#shortcut .s-sub li:nth-last-child(1):hover {
+    background: white;
+}
+
+#shortcut .s-sub li:nth-last-child(1):hover a {
+    color: #ca151d;
+}
